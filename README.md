@@ -1,80 +1,181 @@
 SQL eCommerce Database Analysis - SQL
-🔹SITUATION
-You’ve just been hired as an eCommerce Database Analyst for Maven Fuzzy Factory , an online retailer which has just launched their first product.
-As a member of the startup team, you will work with the CEO , the Head of Marketing , and the Website Manager to help steer the business. You will analyze and optimize marketing channels, measure and test website conversion performance, and use data to understand the impact of new product launches.
 
-🔹OBJECTIVE
-Use SQL to: Access and explore the Maven Fuzzy Factory database
-Become the data expert for the company, and the go to person for mission critical analyses.
-Analyze and optimize the business’ marketing channels, website, and product portfolio.
+Project Overview
 
-🔹ANALYZING TRAFFIC SOURCES.
-Traffic source analysis is about understanding where your customers are coming from and which channels are driving the highest quality traffic EMAIL
+This project presents an end-to-end SQL-based eCommerce analysis inspired by the Maven Analytics – Maven Fuzzy Factory case study.
 
-Analyzing search data and shifting budget towards the engines, campaigns or keywords driving the strongest conversion rates.*
-Comparing user behavior patterns across traffic sources to inform creative and messaging strategy.*
-Identifying opportunities to eliminate wasted spend or scale high-converting traffic.*
-🔹ANALYZING WEBSITE PERFORMANCE.
-Website content analysis is about understanding which pages are seen the most by your users, to identify where to focus on improving your business
+In this scenario, I take on the role of an eCommerce Database Analyst at Maven Fuzzy Factory, an online retailer that has recently launched its first product. Working closely with senior stakeholders including the CEO, Head of Marketing, and Website Manager, the goal is to support strategic decision-making through data.
 
-Finding the most-viewed pages that customers view on your site.*
-Identifying the most common entry pages to your website – the first thing a user sees.*
-For most-viewed pages and most common entry pages, understanding how those pages perform for your business objectives.*
-BUSINESS CONCEPT: LANDING PAGE PERFORMANCE & TESTING
-Landing page analysis and testing is about understanding the performance ofyour key landing pages and then testing to improve your results
+The analysis focuses on leveraging SQL to evaluate marketing performance, website behavior, product performance, and customer behavior in order to improve growth, conversion efficiency, and profitability.
 
-Identifying your top opportunities for landing pages – high volume pages with higher than expected bounce rates or low conversion rates.*
-Setting up A/B experiments on your live traffic to see if you can improve your bounce rates and conversion rates.*
-Analyzing test results and making recommendations on which version of landing pages you should use going forward.*
-BUSINESS CONCEPT: ANALYZING & TESTING CONVERSION FUNNELS.
-Conversion funnel analysis is about understanding and optimizing each step of your user’s experience on their journey toward purchasing your products
+Objectives
 
-Identifying the most common paths customers take before purchasing your products.*
-Identifying how many of your users continue on to each next step in your conversion flow, and how many users abandon at each step.*
-Optimizing critical pain points where users are abandoning, so that you can convert more users and sell more products.*
-🔹ANALYSIS FOR CHANNEL MANAGEMENT.
-BUSINESS CONCEPT: CHANNEL PORTFOLIO OPTIMIZATION.
-Analyzing a portfolio of marketing channels is about bidding efficiently and using data to maximize the effectiveness of your marketing budget
+The primary objectives of this project are to:
 
-Understanding which marketing channels are driving the most sessions and orders through your website.*
-Understanding differences in user characteristics and conversion performance across marketing channels.*
-Optimizing bids and allocating marketing spend across a multi-channel portfolio to achieve maximum performance.*
-BUSINESS CONCEPT: ANALYZING DIRECT TRAFFIC.
-Analyzing your branded or direct traffic is about keeping a pulse on how well your brand is doing with consumers, and how well your brand drives business
+Explore and understand the Maven Fuzzy Factory eCommerce database
 
-Identifying how much revenue you are generating from direct traffic – this is high margin revenue without a direct cost of customer acquisition.*
-Understanding whether or not your paid traffic is generating a “halo” effect, and promoting additional direct traffic.*
-Assessing the impact of various initiatives on how many customers seek out your business.*
-🔹ANALYSIS FOR BUSINESS PATTERNS & SEASONALITY.
-BUSINESS CONCEPT: ANALYZING SEASONALITY & BUSINESS PATTERNS.
-Analyzing business patterns is about generating insights to help you maximize efficiency and anticipate future trends
+Serve as the primary data resource for mission-critical business analysis
 
-Day-parting analysis to understand how much support staff you should have at different times of day or days of the week*
-Analyzing seasonality to better prepare for upcoming spikes or slowdowns in demand.*
-🔹PRODUCT ANALYSIS.
-BUSINESS CONCEPT: PRODUCT SALES ANALYSIS.
-Analyzing product sales helps you understand how each product contributes to your business, and how product launches impact the overall portfolio.
+Analyze and optimize:
 
-Analyzing sales and revenue by product.*
-Monitoring the impact of adding a new product to your product portfolio.*
-Watching product sales trends to understand the overall health of your business.*
-BUSINESS CONCEPT: PRODUCT LEVEL WEBSITE ANALYSIS.
-Product-focused website analysis is about learning how customers interact with each of your products, and how well each product converts customers
+Marketing channels
 
-Understanding which of your products generate the most interest on multi-product showcase pages.*
-Analyzing the impact on website conversion rates when you add a new product.*
-Building product-specific conversion funnels to understand whether certain products convert better than others.*
-BUSINESS CONCEPT: PRODUCT REFUND ANALYSIS.
-Analyzing product refund rates is about controlling for quality and understanding where you might have problems to address
+Website performance and conversion
 
-Monitoring products from different suppliers.*
-Understanding refund rates for products at different price points.*
-Taking product refund rates and the associated costs into account when assessing the overall performance of your business.*
-🔹USER ANALYSIS.
-BUSINESS CONCEPT: ANALYZE REPEAT BEHAVIOR.
-Analyzing repeat visits helps you understand user behavior and identify some of your most valuable customers
+Product portfolio and new product launches
 
-Analyzing repeat activity to see how often customers are coming back to visit your site.*
-Understanding which channels they use when they come back, and whether or not you are paying for them again through paid channels.*
-Using your repeat visit activity to build a better understanding of the value of a customer in order to better optimize marketing channels.*
-Thank you
+Customer behavior and repeat engagement
+
+Tools and Skills
+
+SQL (MySQL / PostgreSQL compatible)
+
+Joins, aggregations, and subqueries
+
+Common Table Expressions (CTEs)
+
+Window functions
+
+Funnel and cohort analysis
+
+Business-oriented analytical reasoning
+
+Areas of Analysis
+Traffic Source Analysis
+
+Traffic source analysis focuses on identifying where users originate and which acquisition channels drive the highest-quality traffic.
+
+Key areas include:
+
+Performance comparison across email, search, and paid channels
+
+Conversion rate analysis by traffic source
+
+Identification of high-performing campaigns, keywords, and engines
+
+Detection of wasted marketing spend and opportunities to scale efficient channels
+
+Behavioral differences across acquisition sources
+
+Website Performance Analysis
+
+Website performance analysis evaluates how users interact with site content and which pages contribute most to business outcomes.
+
+Key areas include:
+
+Identification of the most-viewed pages
+
+Analysis of primary landing and entry pages
+
+Measurement of page-level performance against conversion objectives
+
+Discovery of UX and content optimization opportunities
+
+Landing Page Performance and A/B Testing
+
+This analysis assesses the effectiveness of high-impact landing pages and evaluates experiments designed to improve performance.
+
+Key areas include:
+
+Identifying high-traffic pages with elevated bounce rates or low conversion
+
+Designing and evaluating A/B tests
+
+Measuring lift in engagement and conversion metrics
+
+Recommending winning variants for long-term deployment
+
+Conversion Funnel Analysis
+
+Conversion funnel analysis examines each step of the user journey from initial visit to completed purchase.
+
+Key areas include:
+
+Mapping common paths to conversion
+
+Measuring user drop-off at each funnel stage
+
+Identifying critical abandonment points
+
+Optimizing funnel steps to increase completed transactions
+
+Channel Portfolio Optimization
+
+This section focuses on efficient management of a multi-channel marketing portfolio.
+
+Key areas include:
+
+Sessions, orders, and revenue analysis by channel
+
+Comparison of conversion efficiency across channels
+
+Budget allocation strategies to maximize return on investment
+
+Evaluation of user quality differences by channel
+
+Direct and Branded Traffic Analysis
+
+Direct traffic analysis provides insight into brand strength and customer loyalty.
+
+Key areas include:
+
+Revenue contribution from direct traffic (high-margin source)
+
+Assessment of halo effects from paid marketing
+
+Measurement of brand growth trends
+
+Impact evaluation of marketing initiatives on brand-driven demand
+
+Business Patterns and Seasonality Analysis
+
+This analysis supports demand forecasting and operational planning.
+
+Key areas include:
+
+Day-parting analysis by hour and weekday
+
+Identification of seasonal demand patterns
+
+Preparation for demand spikes and slowdowns
+
+Support for staffing and inventory decisions
+
+Product Analysis
+Product Sales Analysis
+
+Revenue and order volume by product
+
+Impact assessment of new product launches
+
+Monitoring product-level performance trends
+
+Product-Level Website Analysis
+
+User interest across multi-product pages
+
+Conversion rate impact of new product introductions
+
+Product-specific conversion funnel construction
+
+Product Refund Analysis
+
+Refund rate analysis by product and supplier
+
+Refund behavior across price tiers
+
+Incorporation of refund-related costs into performance evaluation
+
+User and Repeat Behavior Analysis
+
+Repeat behavior analysis identifies high-value users and long-term customer trends.
+
+Key areas include:
+
+Frequency of repeat visits and purchases
+
+Channel usage patterns for returning users
+
+Paid versus organic reacquisition behavior
+
+Estimation of long-term customer value to guide marketing optimization
